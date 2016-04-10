@@ -1,8 +1,8 @@
 //       _________    __       ___       ___
 //      |   ---   |  |  |     |    \   /    |
 //      |  |   |  |  |  |     |  |\ \ / /|  |
-//      |  |   |  |  |  |___  |  | \   / |  |
-//      |  |___|  |  |      | |  |  \ /  |  |
+//      |  |   |  |  |  |     |  | \   / |  |
+//      |  |___|  |  |  |___  |  |  \ /  |  |
 //      |_________|  |______| |__|   V   |__|
 
 // Code Club Light Wall Experimetation Kit
@@ -22,11 +22,13 @@ void setup()
 
 void loop()
 {
-  turnon(0); // turns on light 0
+//  turnon(0); // turns on light 0
+//  flashAllLights(500,20); // time delay for flash and number of lights
+  
 
 //  turnoff(2); // turns off light 2
 //  flashlights(19, 500, 300); // blinks light 19 on for 500ms and off for 300ms
-//  flashlights(random(0,19), 300, 200); // blinks light 19 on for 500ms and off for 300ms
+  flashlights(random(0,19), 300, 200); // blinks light 19 on for 500ms and off for 300ms
   
 }
 

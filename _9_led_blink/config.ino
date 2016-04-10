@@ -39,5 +39,14 @@ void turnAllOff(int numberLEDS){
 
 }
 
+// flash all lights for n milliseconds
+void flashAllLights(int mseconds, int numberofLEDs){
+  turnAllOn(numberofLEDs);
+  delay(mseconds);
+  turnAllOff(numberofLEDs);
+  delay(mseconds);
+  
+}
+
 
 
